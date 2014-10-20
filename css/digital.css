@@ -1,0 +1,416 @@
+.wraptocenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 147px;
+    height: 170px;    
+    padding-bottom: 4px;
+}
+
+
+.wraptocenter * {
+    vertical-align: middle;
+}
+/*\*//*/
+.wraptocenter {
+    display: block;
+}
+.wraptocenter span {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+}
+/**/
+
+.ie6 .wraptocenter span, .ie7 .wraptocenter span {
+    display: inline-block;
+    height: 100%;
+}
+
+.knjiga-komplet
+{              
+    /*width:147px; */ 
+    /*height:215px;*/
+    margin: 7px 7px 7px 0;
+       
+    
+    white-space:nowrap;
+    text-align:center;
+    display: inline-block;
+    vertical-align: top;    
+    position:relative;
+
+}
+
+ .poslednja-u-redu{margin-right: 0;}
+ .nije-poslednja{margin-right: 9px;}
+ .ie9 .nije-poslednja{margin-right: 9px;}
+
+.ie6 .knjiga-komplet, .ie7 .knjiga-komplet
+{
+    display: inline;
+    zoom: 1;
+}
+
+.slika-knjige
+{    
+    box-shadow: 0 0 10px #484848;
+    border: 1px solid gray;
+}
+
+#digital-portlet-content
+{
+    height: 120px;
+}
+
+.naslov-knjige
+{
+    font-size: 12px;
+    padding: 5px 0 0 0;
+    padding: 0;
+    font-weight: normal;
+    width: 147px;
+    overflow: hidden;  
+    font-weight: normal;     
+}
+
+.autor-knjige
+{
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+    color:#444444;    
+}
+
+div.list-view .sorter
+{
+    text-align: left;
+}
+
+.tooltip
+{
+    border: 1px solid #ff6600;   
+    display: none;
+    background: white;
+    z-index: 9999;
+    max-width: 300px;
+    box-shadow: 0 0 25px black;
+}
+
+.ie6 .tooltip, .ie7 .tooltip
+{
+    width:300px;
+}
+
+div.tooltip table
+{
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+    
+}
+
+div.tooltip table th, div.tooltip table td
+{
+        padding: 2px 10px;
+}
+
+.grupa
+{
+    display: block;
+    margin-top: 5px;
+}
+
+#digital-form label, #digital-form1 label
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ #digital-form1 input, #digital-form1 select
+{
+    display: block;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin-right: 5px;
+    width: 361px;
+}
+#digital-form input{border:none; margin:0; padding: 5px; width:435px;}
+
+#digital-form1 input, #digital-form1 select
+{
+    box-sizing:content-box;    
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+    width: 90%;
+}
+
+#digital-form select
+{
+    width: 370px;
+}
+
+#digital-form
+{
+    /*margin-bottom: 10px;*/
+    /*background: #EFEFEF;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 340px;*/
+}
+
+#digital-form h4
+{
+    margin-bottom: 0;
+}
+
+#digital-form .note
+{
+    color: #666;
+}
+
+div.row
+{
+    margin-bottom: 10px;
+}
+
+.naziv-zbirke, .selektovana-zbirka
+{
+    color: #ff6600;
+    color: brown;
+}
+
+#dugmad1 input,  #dugme-trazi, #dugme-trazi-komplet
+{
+    display: inline;
+    color: white;
+    background: #3079ED;
+    border: 1px solid #2f5bb7;
+    cursor: pointer;
+    height: 25px;
+    margin-top: 4px;
+    width: 265px;
+}
+#dugme-trazi{width:207px;}
+input#dugme-trazi-komplet{width: 150px; height: 28px;}
+#dugmad input{width:150px;margin-top: 3px;height: 30px;}
+
+#dugmad{margin-top: 10px;}
+
+#filter-link{font-size: 20px;}
+
+#objektiv-ciljevi{background: url("prst-gore.png") no-repeat scroll right center transparent;padding-right: 20px;}
+
+#objektiv-ciljevi.zatvoreno{background: url("prst-dole.png") no-repeat scroll right center transparent;padding-right: 20px;}
+
+.skriveno{display: none;}
+
+a.zatvoreno:focus{color: #0066CC;}
+a.zatvoreno:hover{color: #ff6600;}
+
+#filter-tekst.postavljen-filter{color:brown;}
+
+#ukloni-filter, #zatvori
+{
+    background: none repeat scroll 0 0 #DD4B39;
+    /*border: 1px solid #F0C36D;*/
+    color: #FFFFFF;
+    display: block;
+    margin-top: 10px;
+    padding: 4px;
+    width: 200px;
+    text-align: center;
+    font-weight: normal;
+}
+
+a#ukloni-filter-slicica
+{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url('brisanje-slike-cb.png') no-repeat 50% 50%;
+}
+
+a#ukloni-filter-slicica:hover
+{
+    background: url('brisanje-slike.png') no-repeat 50% 50%;
+}
+
+#lista-zbirki ul li
+{
+    padding: 5px 0 5px 15px;
+    background: url('strelice.gif') no-repeat scroll 0 30% transparent;
+}
+
+#lista-zbirki ul li.sve-zbirke
+{
+    background: none;  
+    margin-bottom: 1px;  
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 5px 0;
+}
+
+.min-visina
+{
+    min-height: 150px;
+}
+
+#objektiv-ciljevi-tekst
+{
+    margin-top: 5px;
+    padding-bottom: 10px;
+    background-color: #f7f6f4;
+    border-bottom: 1px dashed #ccc;
+}
+
+#objektiv-ciljevi-tekst img
+{
+    border: 1px solid #ccc;
+    margin: 10px 10px 0 10px;
+}
+
+div.list-view .sorter
+{
+    background-color: #EDEDED;
+    padding:2px;
+    border: 1px solid #ccc;
+}
+
+#ikonice-kontejner{width:120px;height: 32px; /*position:relative;top:-32px;*/padding-top: 5px; background-color: rgba(255, 255, 255, 0.45);}
+
+.pretraga-stranica,.pretraga-deo-stranice, .citanka{display: block;float:left;}
+
+/*.knjiga-pretraga, .knjiga-citanka{height: 16px;width: 16px;padding-left: 5px;}*/
+.knjiga-pretraga, .knjiga-citanka,     .knjiga2-pretraga, .knjiga2-citanka{height: 32px;width: 32px;}
+
+/*.knjiga-pretraga{background: url("lupa16.png") no-repeat scroll right center transparent;}*/
+.knjiga-pretraga, .knjiga2-pretraga{background: url("lupa1.png") no-repeat scroll right center transparent;}
+
+/*.knjiga-citanka{background: url("otvorena-knjiga16.png") no-repeat scroll right center transparent;}*/
+.knjiga-citanka,    .knjiga2-citanka{background: url("otvorena-knjiga.png") no-repeat scroll right center transparent;}
+
+
+#lista-rezultat{text-align: left;}
+
+#upit{float:left;}
+
+#lista-rezultat .sorter
+{
+    font-size: 14.8px;   
+    border: 1px solid #ccc;
+    margin-bottom: 0;
+}
+
+#lista-rezultat  .sorter a, #lista-rezultat .items  a{color: #0066CC;}
+
+#zatvori{position:absolute;top:490px;left: 700px;float:right;padding: 7px 0 7px 0;}
+
+.ie6 #zatvori{display: none;}
+
+.markirano-1, .markirano-0
+{
+    padding: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+.markirano-0{background: #fff;}
+
+.markirano-1{background: #f0f0f0;}
+
+.animacija{background: url('sat.gif') no-repeat top right;}
+
+.ui-dialog .ui-dialog-title{height: 20px;overflow: hidden;}    
+
+
+/*<style>*/
+    .knjiga td{padding: 2px; font-size: 14.6px;border-bottom: 1px dashed #ccc;}
+    .opis{min-height:175px;}
+    td.opis{width:115px;min-height:0;font-weight: bold;}
+    td.vrednost {width:405px;}
+    .naslov
+    {
+        font: 22px/22px "trebuchet ms",sans-serif;
+        letter-spacing: -1px;
+        margin: 0 0 15px;
+        text-decoration: none;
+        
+    }
+    tbody tr:nth-child(2n) td, tbody tr.even td
+    {
+        background-color: #fafafa;
+    }
+/*</style>*/
+
+/*Iskopirano iz knjiga.css*/
+
+#lista-rezultat > .pager {
+    left: 15px;
+    position: absolute;
+    top: 490px;
+}
+
+#lista-rezultat > .items
+{
+    height: 370px;
+    /*width: 868px;*/
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: justify;    
+}
+
+#dijalog-naslov{display:none;}
+#dijalog-naslov a{font-weight: bold; color: #03345C; font-size: 24px; text-shadow: 2px 2px 2px #CCCCCC;}
+#PretragaStranicaForm_ftsUpit{width: 655px;font-size: 15.3px; border:none; background: transparent;padding: 0 5px 0 15px;}
+#pretraga-form {    text-align: left;}
+div.items .empty {font-weight: bold;}
+
+#dugme-trazi {
+    background: none repeat scroll 0 0 #3079ED;
+    border: 1px solid #2F5BB7;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0;
+    display: auto;
+    height: auto;
+    font-size: 15.3px;
+}
+#upit-kontejner{height: 90px;border-bottom: 1px solid #ccc;}
+
+#upit table,#upit-komplet table {margin: 0; padding: 0;}
+#upit table td, #upit-komplet table td {padding:0;background-color: inherit;}
+#upit table td#polje-upit-td, #upit-komplet table td#polje-upit-td-komplet{border:1px solid #ccc; background: #fff; }
+#upit table td#polje-upit-td.animacija{border:1px solid #ccc;background: url("sat.gif") no-repeat left center #FFFFFF; }
+
+#upit table td#dugme-trazi-td, #upit-komplet table td#dugme-trazi-td-komplet{background-color: #3079ED;}
+#upit table #labela-pretraga, #upit table #labela-pretraga-komplet{display: block;font-weight: bold;padding: 3px 0 3px 0;text-align: left;text-shadow: 2px 2px 2px #CCCCCC;}
+#upit table td#operatori{padding:2px 0 0 0;}
+#pretraga{padding-top: 0;}
+.knjiga{margin: 20px 0 20px 0; border-bottom: 1px solid #ccc; padding-bottom: 5px;}
+
+div.opis table{margin-bottom: 10px;}
+div.opis table td p{margin-bottom: 0; padding: 5px 0 0 0; text-align: justify;}
+.objava{padding-top: 5px;}
+.pisanje-komentara h3{margin-top: 7px;}
+#filter-tekst ul{list-style: none; overflow: hidden; padding: 0; margin: 0 0 5px;}
+#filter-tekst li {padding: 5px; background: #F9EDBE; margin: 0 5px 5px 0; border-radius: 3px; border:1px solid orange; float:left;}
+#filter-tekst li strong{color:brown;}
+li#ukloni-sve-filter-tagove{background: #DD4B39; padding: 0; margin-top: 5px;}
+li#ukloni-sve-filter-tagove a{color:#FFF;padding: 5px;}
+li a.ukloni-filter-tag{background: url("brisanje-slike-cb.png") no-repeat scroll 50% 50%;display: block;float: right;height: 21px;width: 21px;}
+li a.ukloni-filter-tag:hover{background: url("brisanje-slike.png") no-repeat scroll 50% 50%;}
+#tabs_1{position: relative;}
+#tabs_1 .ruka{background: url("prst-gore.png") no-repeat scroll right center;display: block;height: 30px;left: 285px;position: absolute;top: 0;width: 31px;cursor:pointer;z-index: 99;}
+#tabs_1 div.ruka.zatvoreno{background: url("prst-dole.png") no-repeat scroll right center transparent;}
+
+div.ionTabs__item .kolona{width:295px;}
+input#df_godinaOd {width:120px;}
+input#df_godinaDo {width:120px;margin-right: 0;}
+
+#digital-form1 .kolona input:focus, #digital-form1 .kolona select:focus{border:1px solid #3079ED;}
+#filter-tekst{margin-top: 10px;}
+
+.ie7 #filter-zbirke1, .ie6 #filter-zbirke1{height: 270px;}
+.ie76.ionTabs__item, .ie7 .ionTabs__item{height:210px;}

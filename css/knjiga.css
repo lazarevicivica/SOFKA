@@ -1,0 +1,33 @@
+#Knjiga_sadrzaj
+{
+    font-family: Monospace, sans-serif;
+}
+
+#dijalog-naslov{display:block;margin-top: 7px;}
+
+#lista-rezultat > .pager {
+    position: relative;
+    top:auto;
+    left:auto;
+}
+
+#lista-rezultat > .items
+{
+    height: auto;
+    width: auto; 
+    margin-bottom: 10px;
+    max-height: 500px;
+}
+
+#dijalog-naslov{width: 130px;}
+#dijalog-naslov a{font-weight: bold; color: #03345C; font-size: 24px; text-shadow: 2px 2px 2px #CCCCCC;}
+#labela-pretraga{display: block;font-weight: bold;padding: 3px 0 0;text-align: left;text-shadow: 2px 2px 2px #CCCCCC;}
+#PretragaStranicaForm_ftsUpit{width: 400px;}
+#pretraga-form {height: auto;}
+div.items .empty {padding-left:10px; font-weight: bold;}
+
+
+
+/*************************/
+
+/*#dijalog-naslov{left: 5px;position: relative;top: 0;width: 85px;font-weight: bold;}*/

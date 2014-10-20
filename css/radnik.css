@@ -1,0 +1,104 @@
+div.radnik
+{
+    padding:5px;
+    text-align: left;
+    border-radius: 5px  ;
+    background-color: #F2F2F2;
+    margin-bottom: 10px;
+    border: 1px solid #DFDFDF;
+}
+
+div.radnik .left
+{
+    display:block;
+    margin-right: 10px;
+}
+
+div.radnik .right
+{
+    min-height: 58px;
+    display:block;
+    width:554px;
+}
+
+.podaci
+{
+    width: 504px;
+    float:left;
+}
+
+.radnik .prikazi-biografiju
+{
+    width: 35px;
+    height: 35px;
+    margin: 20px 5px 0 0;
+    display: block;
+    cursor: pointer;
+    float:right;
+    background: url('dole-cb.png') no-repeat;
+}
+
+.radnik .prikazi-biografiju:hover
+{
+    background: url('dole.png') no-repeat;
+}
+
+.radnik .gore:hover
+{
+    background: url('gore.png') no-repeat;
+}
+
+.radnik .gore
+{
+    background: url('gore-cb.png') no-repeat;
+}
+
+.biografija p
+{
+    margin-bottom: 0;
+}
+
+div.radnik h3
+{
+    margin-bottom: 0;
+}
+
+div.radnik label
+{
+    font-weight: bold;
+    color: #505050;
+}
+
+div.lista-zaposlenih
+{
+    margin-bottom: 20px;
+}
+
+div.lista-zaposlenih h2
+{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.biografija
+{
+    margin-top: 6px;
+    padding: 5px;
+    background: #fdfdfd;
+    text-align: justify;
+    display: block;
+    /*border-top: 1px solid #DFDFDF;*/
+}
+
+.biografija p.introduction:first-letter {
+font-size : 300%;
+font-weight : bold;
+float : left;
+width : 1em;
+}
+
+.skriveno
+{
+    display:none;
+}

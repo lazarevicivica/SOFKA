@@ -1,0 +1,139 @@
+.podaci-naslovna
+{
+    margin-top: 20px;
+    width: 275px;
+    float: right;
+    font-family: Tahoma;
+    height: 270px;
+}
+
+.naslovna-kontakt-naslov
+{
+    text-shadow: 2px 2px 2px #CCCCCC;
+    font-weight: bold;
+    font-size: 1.34em; /*18px;*/
+    color: #41423e;
+}
+
+.naslovna-kontakt-podaci
+{
+    font-size: 1.1em; /*15.3333px;*/
+    color: #41423e;
+    margin-bottom: 11px;
+}
+
+.okvir
+{
+    background: url("frame1.png") no-repeat scroll 0 20px #F2F2F2;
+    padding-bottom: 10px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 335px;
+}
+
+#slides {
+	position:relative;        
+        margin: 27px 0 0 25px;
+	z-index:100;
+        background-position:  0;
+        width:621px;
+        height: 288px;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container, .slides_container p, .slides_container div{
+	width:621px;
+	overflow:hidden;
+	position:relative;
+        text-align: justify;
+}
+
+.slides_container p
+{
+    	width:611px;
+}
+
+.sadrzaj-slajda
+{
+    background: #fff;
+    height: 290px;
+    width:621px;
+}
+.sadrzaj-slajda p
+{
+    padding: 10px 5px 10px 5px;
+    font-size: 14px;
+    font-size: 1.15em;
+    line-height: 1.4;
+}
+
+.sadrzaj-slajda img
+{
+    border: 1px solid #f0f0f0;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+
+/*
+	Pagination
+*/
+
+.pagination {
+    margin: -14px 0 0 auto;
+    padding-left: 0;
+    position: relative;
+    width: 60px;
+    z-index: 999;
+}
+
+.pagination li {
+        float:left;
+	margin:0 1px;
+	list-style:none;
+        position:relative;
+        height: 12px;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+        padding-top:12px;
+	background-image:url(pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+    	float:left;
+	background-position:0 -12px;
+}
+
+/*
+	Footer
+*/
+
+#footer {
+	text-align:center;
+	width:580px;
+	margin-top:9px;
+	padding:4.5px 0 18px;
+	border-top:1px solid #dfdfdf;
+}
+
+.novosti-iz-biblioteke
+{
+    position:absolute;
+    top:523px;
+    padding-left: 0;
+}

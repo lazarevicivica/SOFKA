@@ -1,0 +1,552 @@
+#levo
+{
+    display:block;
+    width:675px;
+    float:left;
+}
+
+#desno
+{
+    display:block;
+    width:250px;
+    float:right;   
+    text-align: left;
+    font-size: 13px;
+}
+
+#desno .buttons input
+{
+    width:250px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #111111;
+}
+
+.kutija
+{
+    border:1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #111111;
+    margin-bottom: 20px;
+}
+
+.zaglavlje-kutije
+{
+    background: none repeat scroll 0 0 #ee650e;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 10px #CCCCCC;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    padding:3px 3px 3px 8px;
+}
+
+.plavo
+{
+    background: #3d6e9e;
+}
+
+.telo-kutije
+{
+    padding:5px;
+}
+
+div.telo-kutije.odeljci label
+{
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+}
+
+.ogranici-visinu
+{
+    max-height: 300px;
+    overflow: auto;
+}
+
+#kljucne-reci .telo-kutije textarea
+{
+    width: 226px;
+    padding: 5px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #ccc;
+  
+}
+
+#cke_Objava_uvod
+{
+    /*box-shadow: 0 0 10px #111111;*/
+}
+
+#cke_Objava_tekstSirov
+{
+    margin-bottom: 20px;
+}
+
+#Objava_naslov, #naziv-kviza
+{
+    color: #03345C;
+    font-size: 24px;
+    padding: 2px;
+    width: 658px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 0px;
+}
+
+.required span
+{
+    color: red;    
+}
+
+.heder
+{
+/*    background-color: #3D6E9E;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 10px 7px #CCCCCC;
+    color: white;
+    margin-bottom: 0;
+    padding: 5px;
+    text-shadow: none;
+    width: 664px;
+    border: 1px solid #ccc;*/
+}
+
+.panel
+{
+    padding: 0 4px;
+}
+
+#levo label, .naslov-objave label
+{
+    color: #888888;
+    color: #505050;
+}
+
+.naslov-objave label .required
+{
+    position: relative;
+    left:-857px;
+}
+
+.form-wide input
+{   
+    margin: 0 0 10px 0;
+}
+
+#content
+{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#filelist
+{
+   background: none repeat scroll 0 0 #F9F9F9;
+   font-size: 12px;
+   margin:0;
+
+   z-index: 999;
+}
+
+#filelist-kontejner
+{
+  margin:0;
+  padding:0;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px 3px 3px 3px;            
+  height: 200px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+#uploader p
+{
+    margin: 0 0 5px 0;
+}
+
+#filelist div
+{
+    padding: 1px 0 1px 0;
+}
+
+.par
+{
+    background-color: #eee;
+}
+#galerija .telo-kutije
+{    
+    padding:3px 3px 10px 3px;
+}
+
+.slika-naslov
+{
+   font-size: 10px;
+}
+
+.status-cekanje, .status-staro, .status-poslato, .status-izbrisano
+{
+    width: 10px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#filelist tr.slika-na-serveru td.slika-naziv
+{
+    color: green;
+    padding-left: 20px;
+}
+
+#filelist tr.nova-slika td.slika-naziv
+{
+    padding-left: 20px;
+    color: #FF6600;
+}
+
+td.slika-naziv
+{
+    background: url("slika.png") no-repeat scroll 2px 50%;    
+    padding-left: 20px;    
+}
+
+td.iskljuceno-iz-galerije
+{
+    background: url("oko.png") no-repeat scroll 2px 50%;
+    padding-left: 20px;
+}
+
+tr.slika-na-serveru td.slika-naziv.brisanje div.slika-naziv-div
+{
+    color: red;
+}
+
+.brisanje
+{
+    color:red;
+}
+
+td.slika-naziv
+{
+    cursor: pointer;
+    width: 148px;
+}
+
+td.strelice
+{
+    width:18px;
+}
+
+.strelica-gore
+{
+    width: 18px;
+    height: 5px;
+    background: url('strelica-gore-cb.png') no-repeat scroll 50% 50%;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.strelica-dole
+{
+    width: 18px;
+    height: 5px;
+    background: url('strelica-dole-cb.png') no-repeat scroll 50% 50%;
+    cursor: pointer;
+}
+
+.strelica-gore:hover
+{
+    background: url('strelica-gore.png') no-repeat scroll 50% 50%;
+}
+
+.strelica-dole:hover
+{
+    background: url('strelica-dole.png') no-repeat scroll 50% 50%;
+}
+
+td.slika-komanda
+{
+    width: 5px;
+    background: url('brisanje-slike-cb.png') no-repeat scroll 50% 50%;
+    cursor: pointer;
+}
+
+td.slika-komanda:hover
+{
+   background: url('brisanje-slike.png') no-repeat scroll 50% 50%;
+}
+
+td.izbrisano
+{
+    background: url('ponisti-brisanje-cb.png') no-repeat scroll 50% 50%;
+}
+
+td.izbrisano:hover
+{
+    background: url('ponisti-brisanje.png') no-repeat scroll 50% 50%;
+}
+
+
+#Objava_tekstSirov
+{
+    width: 653px;
+    height: 405px;
+}
+
+.nevidjlivo
+{
+    display:none;
+}
+
+#izbor, #otpremanje
+{
+    cursor: pointer;
+    font-size: 13px;
+    color: #0066CC;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #eee;
+    margin-bottom: 10px;
+        
+}
+
+#izbor
+{
+    padding-right: 28px;
+    background: url('plus.png') no-repeat right #eee;
+}
+
+#otpremanje
+{
+    display: none;
+    padding-right: 20px;
+    background: url('otpremanje.png') no-repeat right #eee;
+}
+#izbor:hover, #otpremanje:hover
+{
+    color: #FF6600;
+}
+
+
+div.buttons input.onemoguceno
+{
+    color: gray;
+    background-color: #ccc;
+    border: 1px solid gray;
+    cursor: default;
+    /*top: -20px;*/
+    position: relative;
+}
+
+#izbor .onemoguceno
+{
+    color:gray;
+    background-color: #ccc;
+    border: 1px solid gray;
+    cursor: default;
+}
+
+#otpremanje .onemoguceno
+{
+    color:gray;
+    background-color: #ccc;
+    border: 1px solid gray;
+    cursor: default;
+}
+
+#otkazi
+{
+    /*display:none;*/
+    position: relative;
+    right: 20px;
+    top: -50px;
+    z-index: 999;
+    display: none;
+    float: right;
+}
+
+#progres-info
+{
+    float:right;
+    top:0px;
+    width:136px;
+    height:10px;
+
+}
+
+#progres-labela
+{
+    font-size: 12px;
+    color: #fff;
+    float:right;
+    position:relative;
+    left: 0px;
+    top: 3px;
+    margin-right: 4px;
+    display: none;
+}
+
+#progressbar
+{
+    width:80px;
+    height:11px;
+    position:relative;
+    top: 4px;
+    display: block;
+    float: left;
+}
+
+.slika-naziv-div
+{
+    overflow: hidden;
+    width:135px;
+}
+
+#stari-browser
+{
+    display: none;
+    color: #990000;
+    font-size: 16px;
+    width: 600px;
+    padding: 30px;
+    border: 1px dashed #AA0000;
+    background: #FBE3E4;
+    margin: 5px 0 10px 5px;
+}
+
+#Objava_draft
+{
+   margin: 0 5px 20px 0;
+}
+
+label
+{
+    font-weight: bold;
+    color: #505050;
+}
+
+#tagovi_
+{
+    height:170px;
+}
+
+#filelist td
+{
+    padding:4px 0 4px 0;
+}
+
+/*JUI Dijalog*/
+
+#podesavanje-slike label
+{
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+#dijalog-polja
+{
+    display:block;
+    width: 360px;
+}
+
+#dijalog-polja .lbl
+{
+    display:inline-block;
+    width: 63px;
+    margin: 0 0 7px;
+    font-weight: bold;
+    text-align: right;
+}
+#dijalog-status
+{
+    margin: 0 0 7px;
+}
+#dijalog-prikaz
+{
+    margin: 0;    
+}
+#dijalog-lbl-prikaz
+{
+    margin-top: 5px;
+}
+#dijalog-rotacija, #dijalog-alt, #dijalog-title
+{
+    margin: 3px 0;
+    padding: 4px;
+    font-family: Arial;
+}
+#dijalog-alt, #dijalog-title
+{
+    width:280px;
+}
+
+#dijalog-iznad-opisa
+{
+    background: none repeat scroll 0 0 #F3F3F3;    
+    margin-bottom: 3px;
+    padding: 5px;
+}
+#dijalog-dugmad
+{
+    margin: 10px 5px 5px 5px;
+    height: 20px;
+}
+
+#dijalog-dugmad div.right
+{
+    margin-top: 5px;
+}
+
+#umetanje-glavni, #gotovo
+{
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #F3F3F3;
+    font-size: 13px;
+    color: #0066CC;
+}
+
+#umetanje-glavni:hover, #gotovo:hover
+{
+    color: #FF6600;
+}
+
+.prethodna, .prethodna-onemoguceno, .sledeca, .sledeca-onemoguceno
+{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.prethodna
+{
+    float:left;
+    background: url('nazad.png');
+}
+
+.prethodna-onemoguceno
+{
+    background: url('nazad-cb.png');
+    cursor: default;
+}
+
+.sledeca
+{
+    float:right;    
+    background: url('napred.png');
+}
+
+.sledeca-onemoguceno
+{
+    background: url('napred-cb.png');
+    cursor: default;
+}
+
+.row{margin-top: 10px;}
+
+#objava-panel input{padding: 4px; width:95%;}
+#objava-panel label{width: 100px;}

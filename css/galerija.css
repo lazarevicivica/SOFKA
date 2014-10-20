@@ -1,0 +1,30 @@
+
+ul.galerija
+{
+    padding: 0px 0 10px 0;
+    margin:0;
+}
+
+.galerija li
+{
+    list-style: none;
+    background-color: white;
+    float: left;
+    margin: 10px 10px 0 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    height: 151px;
+}
+
+.galerija li img
+{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+li.poslednja
+{
+        margin: 10px 0px 0 0;
+}
+

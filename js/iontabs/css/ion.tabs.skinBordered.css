@@ -1,0 +1,58 @@
+/* Ion.Tabs: Bordered Skin
+// css version 1.0.0
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Ion.Tabs: Skin details */
+
+.ionTabs {
+    margin: 0 0 5px;
+}
+    .ionTabs__head {
+        border-bottom: 1px solid #cecece;
+    }
+
+    .ionTabs__tab {
+        font-size: 11px; line-height: 13px;
+        background: #fff;
+        border: 1px solid #cecece;
+        border-bottom: none;
+        padding: 7px 15px 7px;
+        margin-right: 10px;
+        color: #484848;
+        /*margin-top: 10px;*/
+        text-align: center;
+        min-width: 50px;
+        top:1px;
+    }
+        .ionTabs__tab:hover {
+            background: #e5e5e5;
+        }
+        .ionTabs__tab.ionTabs__tab_state_active {
+            /*top: 2px;*/
+            /*margin-top: 0;*/
+            /*padding: 12px 25px 11px;*/
+            /*background: #fff;*/
+            background: #f0f0f0;
+            color: #d71410;
+            border-top-color: #d71410;
+            border-bottom: 1px solid #F0F0F0;
+            cursor:pointer;
+        }
+
+    .ionTabs__body {
+        /*background: #fff;*/
+        background: #f0f0f0;
+        border: 1px solid #cecece;
+        border-top: none;
+    }
+
+    .ionTabs__item {
+        padding: 10px 15px;
+    }
+
+    .ionTabs__preloader {
+        height: 50px;
+        background: url(../img/preloader-flat.gif) no-repeat 25px 50%;
+    }

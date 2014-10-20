@@ -1,0 +1,51 @@
+#desno input, #desno select
+{
+    width: 230px;
+
+}
+input, #desno select
+{
+    border: 1px solid #CACACA;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 1px #E7E7E7;
+    font: 1em Arial,Helvetica,sans-serif;
+    margin: 0 0 5px;
+    padding: 3px;
+}
+
+.row
+{
+    text-align: left;
+}
+
+.naslov_profila
+{
+    font-weight: bold;
+    margin: 0;
+    padding-top: 9px;
+    text-shadow:0px 1px 0 #ccc;
+}
+
+#zaglavlje_profila img
+{
+    float:left;
+    padding:0;
+    margin-right:7px;
+    height:50px;
+    width:50px;   
+}
+
+#zaglavlje_profila
+{
+    padding-bottom: 25px;
+}
+
+#cke_Clan_profil
+{
+    box-shadow: 0 0 10px #111111;
+}
+
+input#Clan_licni_podaci
+{
+    width:20px;
+}
